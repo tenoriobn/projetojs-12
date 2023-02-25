@@ -1,0 +1,50 @@
+@import url(_variaveis.css);
+
+body {
+    height: 100vh;
+    background-color: var(--preto);
+    display: flex;
+    justify-content: center;
+}
+
+.pontuacao {
+    color: var(--branco);
+    font-size: 2rem;
+}
+
+.pontos {
+    color: red;
+}
+
+.tabuleiro {
+    border: 1px solid var(--branco);
+}
+
+.card {
+    cursor: pointer;
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.btn-reset {
+    background-color: var(--branco);
+    border: none;
+
+    width: 150px;
+    height: 40px;
+}
+
+@media screen and {
+    .card {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
